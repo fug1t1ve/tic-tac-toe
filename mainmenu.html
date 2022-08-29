@@ -42,7 +42,6 @@
             <div class="pagination">
                 <a class="active" href="#">Play Game</a>
                 <button class="btn btn-info" onclick="myFunction()">Dark mode</button>
-                <button class="btn btn-primary" onclick="playAudio(this)" type="button">Play Music</button>
             </div>
         </div>
         <!--Our website's name-->
@@ -65,28 +64,6 @@
       </div>
         
     </div> 
-
-
-    <audio id="myAudio">
-      <source src="music.mp3" type="audio/ogg">
-    </audio>
-    
-    <script>
-      var x = document.getElementById("myAudio"); 
-      
-      function playAudio(btn) { 
-//         x.play(); 
-           return x.paused ? x.play() : x.pause();
-           if(x.paused) {
-             x.play();
-             btn.innerHtml("Pause Music");
-           }
-           else {
-             x.pause();
-             btn.innerHtml("Play Music");
-           }
-      } 
-    </script>
 
 
       <!-- <button onclick="myFunction()">Toggle dark mode</button> -->
