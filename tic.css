@@ -1,0 +1,41 @@
+body {
+font-family: arial, helvetica, sans-serif;
+font-size: 16px;
+
+}
+* {
+margin: 0px;
+padding: 0px;
+}
+main {
+width: 650px;
+height: 650px;
+position: relative;
+left: 33%;
+}
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+.GameBoardStyle {
+width: 200px;
+height: 200px;
+border: 2px solid black;
+text-align: center;
+}
+.centerText {
+padding-top: 47%;
+}
+#top {
+float: left;
+}
+#middle {
+float: left;
+}
+#bottom {
+float: left;
+}
